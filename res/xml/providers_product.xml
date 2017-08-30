@@ -12,6 +12,9 @@
 
 <providers_product>
 
-    <!-- THIS SECTION MUST REMAIN EMPTY -->
+    <provider id="safetelecom" label="SafeTelecom" domain="safetelecom.net">
+        <incoming uri="eas+ssl+://msync.zoho.com"  username="$email" />
+        <outgoing uri="eas+ssl+://msync.zoho.com" username="$email" />
+    </provider>
 
 </providers_product>
